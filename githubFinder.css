@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 32, 66);
+    
+}
+
+header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 15vh;
+}
+
+header h2{
+    font-size: 200%;
+}
+
+form{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#searchBar{
+    width: 100ch;
+    margin-top: 10px;
+}
+
+#cardContainer{
+    margin-top: 10px;
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardContainer div{
+    /* border: 2px solid green; */
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: navajowhite;
+    /* text-shadow: 3px 3px salmon; */
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: all 0.1 ease-in-out;
+}
+
+img:hover{
+    /* height: 250px;
+    width: 250px; */
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+    border: 2px solid rgb(220, 220, 220);
+    padding: .2rem;
+    box-shadow: inset 4px 4px 4px rgb(183, 178, 178);
+}
+
+a:hover{
+    color: coral;
+}
